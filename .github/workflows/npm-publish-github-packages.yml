@@ -4,8 +4,7 @@ name: Build step
 on:
   push:
     branches: 
-     - prod
-     - dev
+     - main
   pull_request:
     branches: [ "main" ]
 
